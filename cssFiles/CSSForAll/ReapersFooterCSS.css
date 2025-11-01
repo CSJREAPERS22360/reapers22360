@@ -1,0 +1,80 @@
+footer {
+    width: 100%;
+    height: 300px;
+    background: #800020;
+    display: flex;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+}
+
+.footerInfo li {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.footerLinks {
+    width: 50%;
+    height: 100%;
+}
+
+.upperBtn {
+    margin-top: 70px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    grid-gap: 20px;
+}
+
+.upperBtn a button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: white;
+    border-radius: 15px;
+
+    color: #800020;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lowerBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.lowerBtn a button {
+    width: 300px;
+    background: white;
+    height: 40px;
+    border: none;
+
+    color: #800020;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.lowerBtn a button:hover, .upperBtn a button:hover {
+    scale: 0.98;
+}
