@@ -1,0 +1,236 @@
+.hero {
+    padding-top: 250px;
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: cover;
+    background-position: top;
+}
+
+.content1, .content2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 6% 6%;
+}
+
+.aboutTheTeam {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.aboutTheTeam h1 {
+    font-size: 50px;
+    color: #800020;
+}
+
+.aboutTheTeam p {
+    font-size: 24px;
+    color: #772d42;
+    line-height: 28px;
+}
+
+.photosShare {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 410px));
+    grid-gap: 20px;
+}
+
+.photosShare img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ourMission {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    background: #800020;
+}
+
+.ourMissionContent {
+    text-align: center;
+    height: auto;
+    margin: 10px;
+}
+
+.ourMissionContent h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.ourMissionContent p {
+    color: #ededed;
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 150px;
+    text-align: start;
+}
+
+.ourMissionContent button {
+    width: 150px;
+    height: 40px;
+    border: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    background: white;
+    position: relative;
+    border-radius: 40px;
+    right: -300px;
+    top: -15px;
+    transition: 0.3s;
+}
+
+.ourMissionContent button a {
+    color: #800020;
+    text-decoration: none;
+}
+
+.ourMissionContent button:hover {
+    scale: 0.95;
+}
+
+.ReapersNews {
+    margin: 60px 0;
+    width: calc(100% - 80px);
+    height: 500px;
+    border: 40px solid black;
+    background: black;
+}
+
+.ReapersNewsImage {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.news {
+    position: relative;
+    left: -40px;
+    top: -176px;
+    height: 600px;
+    width: 700px;
+    box-sizing: border-box;
+    background-color: white;
+    clip-path: polygon(0 0, 58% 0, 69% 17%, 89% 17%, 100% 36%, 0 36%);
+    color: white;
+}
+
+.news2 {
+    bottom: -30px;
+    position: relative;
+    height: 600px;
+    width: 690px;
+    box-sizing: border-box;
+    background-color: #800020;
+    clip-path: polygon(0 0, 58% 0, 69% 17%, 89% 17%, 100% 36%, 0 36%);
+}
+
+.news2 h1 {
+    width: 100%;
+    padding: 0 70px;
+    font-size: 50px;
+}
+
+#newsH1 {
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+
+.upComingComp, .upComingCommunityEvent {
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.upComingCompImage, .upComingCommunityEventImage {
+    width: 95%;
+    height: 300px;
+    margin-right: 3%;
+}
+
+.upComingCompImageImg, .upComingCommunityEventImageImg {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.upComingCompInfo, .upComingCommunityEventInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    color: #800020;
+}
+
+.upComingCommunityEventImage button {
+    margin-top: 8px;
+    width: 400px;
+    height: 40px;
+    background: #800020;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.upComingCommunityEventImage button:hover {
+    scale: 0.98;
+}
+
+.upComingCommunityEventImage button a {
+    color: white;
+    text-decoration: none;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+
+.content3Sponsors {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+#content3SponsorsH1 {
+    position: relative;
+    top: 18%;
+    left: 14%;
+    color: #800020;
+    font-size: 50px;
+}
+
+.arrow {
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    background: #800020;
+    clip-path: polygon(94% 15%, 100% 38%, 94% 60%, 0 61%, 0 15%);
+}
+
+.arrow h1 {
+    position: relative;
+    top: 35px;
+    color: white;
+}
+
+
