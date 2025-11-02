@@ -5,8 +5,54 @@
     <title>Reapres Highlights</title>
     <link rel="stylesheet" href="cssFiles/ReapersHighlights.css">
     <link rel="stylesheet" href="cssFiles/CSSForAll/ReapersHeaderCSS.css">
+    <link rel="stylesheet" href="cssFiles/CSSForAll/ReapersFooterCSS.css">
+    <script src="ReapersHeaderJS.js"></script>
 </head>
 <body>
+    <header class="header">
+        <div class="logo">
+            <div class="logoImage" style="background-image: url('ReapersImages/ReapersLogo.PNG');"></div>
+            <div class="logoWords"><h1>THE REAPERS</h1></div>
+        </div>
 
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <nav class="menu" id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutReapers.html">About</a></li>
+                <li><a href="ReapersHighlights.html" id="onThisPage">Highlights</a></li>
+                <li><a href="ReapersShop.html">Shop</a></li>
+                <li><a href="ReapersSponsors.html">Sponsors</a></li>
+                <li><a href="ReapersContact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <footer>
+        <ul class="footerInfo">
+            <li><i class="fa-solid fa-user"></i><p>Reapers Team #22360</p></li>
+            <li><i class="fa-solid fa-graduation-cap"></i><p>Forest Hills High School</p></li>
+            <li><i class="fa-solid fa-location-dot"></i><p>6701 110th St, Forest Hills, NY 11375</p></li>
+            <li><i class="fa-solid fa-envelope"></i><p>csjreapers22360@gmail.com</p></li>
+            <li><i class="fa-brands fa-instagram"></i><p>reapers_22360</p></li>
+        </ul>
+        <div class="footerLinks">
+            <div class="upperBtn">
+                <a href="index.html"><button>Home</button></a>
+                <a href="AboutReapers.html"><button>About</button></a>
+                <a href="ReapersHighlights.html"><button>HighLights</button></a>
+                <a href="ReapersShop.html"><button>Shop</button></a>
+                <a href="ReapersSponsors.html"><button>Sponsors</button></a>
+                <a href="ReapersContact.html"><button>Contacts</button></a>
+            </div>
+            <div class="lowerBtn">
+                <a href=""><button>Support Us</button></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
