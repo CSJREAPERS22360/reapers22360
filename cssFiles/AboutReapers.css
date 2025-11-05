@@ -330,8 +330,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .hero {
+        height: 50vh;
+    }
+
     .whoWeAre p {
-        font-size: 18px;
+        font-size: 23px;
     }
 
     .heroImage {
