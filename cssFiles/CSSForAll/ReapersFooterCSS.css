@@ -3,6 +3,7 @@ footer {
     height: 300px;
     background: #800020;
     display: flex;
+    padding-bottom: 40px;
 }
 
 .footerInfo {
@@ -78,3 +79,4 @@ footer {
 .lowerBtn a button:hover, .upperBtn a button:hover {
     scale: 0.98;
 }
+
