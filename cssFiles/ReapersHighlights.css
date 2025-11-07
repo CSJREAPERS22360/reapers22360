@@ -113,8 +113,14 @@
     height: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 220px));
+    gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .outreachActivitiesBoxes {
+        width: 50%;
+    }
 }
 
 .outreachActivitiesBoxesInfo {
